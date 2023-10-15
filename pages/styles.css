@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: o;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.border{
+  border: 1px solid #ccc;
+}
+h1 {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  h3 {
+    margin-top: 0;
+    font-size: 18px;
+  }
+  
+  h4 {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    font-size: 14px;
+  }
+  
+  h6 {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  .btn{
+    padding: 10px;
+    font-size: medium;
+    border: 1px solid #001cc3;
+    cursor: pointer;
+    background: none;
+  }
+  .font-color-green a{
+    color: #34eb52;
+  }
+  .font-white{
+    color: white;
+  }
+  .btn-dark{
+    padding: 10px;
+    font-size: large;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  .btn-dark:hover, .btn:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  .d-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+  }
+  .align-continer-center{
+    text-align: center;
+  }
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mt-1{
+    margin-top: 1em;
+  }
+  .mt-2{
+    margin-top: 2em;
+  }
+  .bg-dark{
+    background-color: black;
+    border: 1px solid #000;
+    color: #fff;
+  }
+  .bg-blue{
+    background-color: #001cc3;
+    border: 1px solid #001cc3;
+    color: #fff;
+    padding: 10px;
+  }
+  .bg-green{
+    background-color: #34eb52;
+    border: 1px solid #34eb52;
+    color: #fff;
+    padding: 10px;
+  }
+  .imgs{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .titulo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 2em;
+  }
+  .w-100{
+    width: 100%;
+  }
+  .redes{
+    margin-left: 5px;
+  }
+  .form-control{
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  input[type=text]{
+    width: 100%;
+    border: #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc; 
+  }
+  input[type=text]:focus{
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+  }
+  a{
+    text-decoration: none;
+    }
+  .footer{
+    width: 100%;
+
+  }
+  .footer-topo{
+    width: 100%;
+    background-color: #001cc3;
+    color: #fff;    
+  }
+  .footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-list, .footer-list li{
+    list-style: none;
+    padding: 0.5em;
+  }
+  .div-coll{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+  }
+  .footer-logo{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .footer-logo img{
+    width: 20%;
+  }
+  .slideitem img{
+    width: 75% !important;
+  }
+  .img-titulo img{
+    height: 100%;
+  }
+  .card-prod{
+    width: 25%;
+    padding: 10px;
+    box-shadow: #ccc 5px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-inline-end: 10px;
+  }
+  .card-prod img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card-titulo{
+    text-align: center;
+    font-size:  x-large;
+  }
+  .card-desc{
+    font-size: small;
+    padding-top: 5px;
+    text-align: justify;
+  }
+  .card-valor{
+    font-size: x-large;
+    color: #001cc3;
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+  }
+  .titulo-p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    color: #656665;
+    
+  }
+  
+
+    @media screen and (max-width: 900px){
+      .container{
+        width: 100%;
+        justify-content: center;
+      }
+      .d-flex{
+        display: block;
+        justify-content: center;
+      }
+      
+    }
+   
+ 
+  
