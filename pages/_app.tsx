@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import "./styles.css";
-import {register} from "Swiper/element/bundle"
+import {register} from "Swiper/element/bundle";
 
 
 register();
